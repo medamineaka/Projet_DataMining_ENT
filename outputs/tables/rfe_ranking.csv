@@ -1,0 +1,11 @@
+feature,ranking,selected
+age,1,True
+entdiag1,1,True
+refdiag1,1,True
+facility ref level,1,True
+specialtyentdx1,1,True
+UTH department,2,False
+reason for referral,3,False
+age_group,4,False
+UTH referral?,5,False
+attendance,6,False

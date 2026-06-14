@@ -1,0 +1,11 @@
+chemin,classe,probabilite,echantillons
+facility ref level <= 4.50 → entdiag1 <= 9.50 → age <= 45.50 → refdiag1 <= 101.50 → ,inappropriate,1.0,52
+facility ref level > 4.50 → attendance > 1.50 → age > 35.73 → age > 46.48 → ,not applicable,1.0,13
+facility ref level <= 4.50 → entdiag1 > 9.50 → refdiag1 > 121.50 → entdiag1 > 158.50 → ,inappropriate,1.0,26
+facility ref level > 4.50 → attendance > 1.50 → age <= 35.73 → ,not applicable,1.0,47
+facility ref level > 4.50 → attendance <= 1.50 → ,not applicable,1.0,513
+facility ref level <= 4.50 → entdiag1 <= 9.50 → age <= 45.50 → refdiag1 > 101.50 → ,inappropriate,0.9,10
+facility ref level <= 4.50 → entdiag1 <= 9.50 → age > 45.50 → ,inappropriate,0.8181818181818182,11
+facility ref level <= 4.50 → entdiag1 > 9.50 → refdiag1 > 121.50 → entdiag1 <= 158.50 → ,inappropriate,0.7346938775510204,49
+facility ref level > 4.50 → attendance > 1.50 → age > 35.73 → age <= 46.48 → ,not applicable,0.7,10
+facility ref level <= 4.50 → entdiag1 > 9.50 → refdiag1 <= 121.50 → refdiag1 > 48.50 → ,appropriate,0.6085164835164835,728

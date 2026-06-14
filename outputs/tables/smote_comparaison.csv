@@ -1,0 +1,4 @@
+﻿Classe,Avant SMOTE,Après SMOTE,Exemples ajoutés,Ratio équilibrage %
+appropriate,448,582,134,33.3
+inappropriate,582,582,0,33.3
+not applicable,127,582,455,33.3

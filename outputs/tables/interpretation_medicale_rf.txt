@@ -1,0 +1,16 @@
+INTERPRÉTATION MÉDICALE – Random Forest
+============================================================
+
+Accuracy : 0.756
+F1-score : 0.755
+AUC-ROC  : 0.840
+
+Top 5 variables :
+  facility ref level: 0.350
+  refdiag1: 0.213
+  UTH referral?: 0.122
+  entdiag1: 0.113
+  UTH department: 0.060
+
+Le Random Forest confirme et affine les résultats du Decision Tree.
+Utilisation recommandée : système de scoring des referrals.

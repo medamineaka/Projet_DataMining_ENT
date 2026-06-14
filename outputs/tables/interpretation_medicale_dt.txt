@@ -1,0 +1,13 @@
+INTERPRÉTATION MÉDICALE – Decision Tree
+============================================================
+
+Accuracy : 0.642
+F1-score : 0.643
+AUC-ROC  : 0.7322275985024368
+
+Variables clés :
+  facility ref level: 0.888
+  entdiag1: 0.055
+  refdiag1: 0.053
+  age: 0.003
+  attendance: 0.000

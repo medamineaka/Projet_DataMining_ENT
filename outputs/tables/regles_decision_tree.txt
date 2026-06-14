@@ -1,0 +1,34 @@
+RÈGLES DE DÉCISION – Decision Tree
+============================================================
+
+|--- facility ref level <= 4.50
+|   |--- entdiag1 <= 9.50
+|   |   |--- age <= 45.50
+|   |   |   |--- refdiag1 <= 101.50
+|   |   |   |   |--- class: 1
+|   |   |   |--- refdiag1 >  101.50
+|   |   |   |   |--- class: 1
+|   |   |--- age >  45.50
+|   |   |   |--- class: 1
+|   |--- entdiag1 >  9.50
+|   |   |--- refdiag1 <= 121.50
+|   |   |   |--- refdiag1 <= 48.50
+|   |   |   |   |--- class: 1
+|   |   |   |--- refdiag1 >  48.50
+|   |   |   |   |--- class: 0
+|   |   |--- refdiag1 >  121.50
+|   |   |   |--- entdiag1 <= 158.50
+|   |   |   |   |--- class: 1
+|   |   |   |--- entdiag1 >  158.50
+|   |   |   |   |--- class: 1
+|--- facility ref level >  4.50
+|   |--- attendance <= 1.50
+|   |   |--- class: 2
+|   |--- attendance >  1.50
+|   |   |--- age <= 35.73
+|   |   |   |--- class: 2
+|   |   |--- age >  35.73
+|   |   |   |--- age <= 46.48
+|   |   |   |   |--- class: 2
+|   |   |   |--- age >  46.48
+|   |   |   |   |--- class: 2

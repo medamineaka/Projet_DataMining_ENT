@@ -1,0 +1,11 @@
+feature,chi2_score,selected
+facility ref level,3320.801210653763,True
+refdiag1,781.5975856106295,True
+UTH referral?,452.34714445688826,True
+entdiag1,417.0459157824658,True
+age,344.9232491026353,True
+UTH department,196.16576964477994,False
+attendance,115.73156586578327,False
+reason for referral,49.63469960696253,False
+specialtyentdx1,32.34380776340121,False
+age_group,14.747398715961967,False
