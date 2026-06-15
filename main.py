@@ -4,7 +4,7 @@
 #  Script  : main.py
 #  Rôle    : Orchestrateur principal – exécute tous les scripts
 # =============================================================
-import mtplotlib
+import matplotlib
 matplotlib.use('Agg')
 import sys
 import os
